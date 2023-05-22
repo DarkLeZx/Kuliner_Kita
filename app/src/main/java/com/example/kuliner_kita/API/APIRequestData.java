@@ -20,6 +20,7 @@ public interface APIRequestData {
             @Field("deskripsi_singkat") String deskripsi_singkat
     );
 
+    @FormUrlEncoded
     @POST("update.php")
     Call<ModelResponse>ardUpdate(
             @Field("id") String id,
@@ -28,6 +29,7 @@ public interface APIRequestData {
             @Field("deskripsi_singkat") String deskripsi_singkat
     );
 
+    @FormUrlEncoded
     @POST("delete.php")
     Call<ModelResponse>ardDelete(
             @Field("id") String id
