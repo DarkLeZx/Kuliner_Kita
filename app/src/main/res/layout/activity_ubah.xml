@@ -33,7 +33,7 @@
         android:textSize="21sp" />
 
     <EditText
-        android:id="@+id/et_deskripsi"
+        android:id="@+id/et_deskripsiSingkat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Deskripsi Singkat"
